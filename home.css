@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+.section-1{
+	
+	width: 100%;
+	height: 802px;
+    background-image: url(images/layer-1.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+
+nav{
+	display: flex;
+    width: 100%;
+}
+
+nav img{
+	width: 15%;
+	padding: 10px;
+}
+
+nav ul{
+	display: flex;
+justify-content: flex-end;
+	width: 100%;
+	float: right;
+	padding: 13px;
+}
+
+
+nav ul li{
+	color: white;
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+}
+nav ul li:hover{
+	border: 4px solid red;
+}
+
+.tag{
+	font-family: 'Bebas Neue light', cursive;
+	color: white;
+	width: 20%;
+	display: flex;
+	margin: auto;
+	margin-top: 80px;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.tag .title1{
+	width: 40%;
+	border:3px solid white;
+    font-size: 30px;
+    padding: 5px;
+}
+.tag .title1 h1{
+	font-size: 48px;
+}
+.tag .title2 h1{
+	font-size: 48px;
+}
+.tag .title2 hr{
+	width: 150px;
+}
+
+
+.section-2{
+	background-color: #42363A;
+	width: 100%;
+    height: 100vh;
+	padding-top: 50px;
+	
+}
+.section-2 .title-sec1{
+	font-family: 'Bebas Neue light', cursive;
+	color: white;
+	margin-left: 100px;
+}
+
+.foods{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+	
+}
+
+.food1{
+  width: 21%;
+	height: 80vh;
+	background-image: url(images/food1.png);
+}
+.food1 .min-food1{
+	background-color: #D24F4B;
+	font-family: 'Bebas Neue light', cursive;
+	width: 50%;
+	height: 25%;
+	color: white;
+	padding-left: 10px;
+	padding-top: 40px;
+	margin: auto;
+	margin-top: 200px;
+
+}
+.foods .food1 h1{
+	margin-top: 50px;
+}
+.foods .food2 h1{
+	margin-top: 50px;
+}
+.foods .food3 h1{
+	margin-top: 50px;
+}
+.food2 .min-food2{
+	background-color: #84993B;
+	font-family: 'Bebas Neue light', cursive;
+	width: 50%;
+	height: 25%;
+	color: white;
+	padding-left: 10px;
+	padding-top: 40px;
+	margin: auto;
+	margin-top: 200px;
+}
+.food3 .min-food3{
+	background-color: #AA6327;
+	font-family: 'Bebas Neue light', cursive;
+	width: 50%;
+	height: 25%;
+	color: white;
+	padding-left: 10px;
+	padding-top: 40px;
+	margin: auto;
+	margin-top: 200px;
+}
+
+ .food2{
+	width: 21%;
+	height: 80vh;
+	background-image: url(images/food2.png);
+}
+
+.food3{
+	width: 21%;
+	height: 80vh;
+	background-image: url(images/food3.png);
+}
+
+.section-3{
+	width: 100%;
+	height: 1000px;
+    background-image: url(images/layer-3.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+.min-section3{
+	display: flex;
+	justify-content: space-around;
+}
+
+.min-section3 .container1{
+	display: flex;
+	flex-direction: column;
+	color: white;
+	flex-basis: 50%;
+}
+
+.min-section3 .container1 .content1{
+padding: 90px;
+}
+
+.min-section3 .container1 .content2{
+	padding-left: 90px;
+}
+
+
+.min-section3 .container1 .content1 h1{
+	font-family: 'Bebas Neue light', cursive;
+	font-size: 70px;
+}
+
+.min-section3 .container1 .content1 p{
+	width: 60%;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+}
+.min-section3 .container1 .content2{
+	margin-top: 20px;
+}
+
+.min-section3 .container1 .content2 h1{
+	font-family: 'Bebas Neue light', cursive;
+	font-size: 70px;
+}
+.min-section3 .container1 .content2 .profil-1{
+	display: flex;
+}
+
+.min-section3 .container1 .content2 .profil-1 p{
+	font-family: 'Lato', sans-serif;
+	width: 40%;
+	font-size: 18px;
+}
+.min-section3 .container1 .content2 hr{
+	width: 50%;
+}
+
+.min-section3 .container2{
+  margin-top: 60px;
+	flex-basis: 50%;
+}
+
+@media(max-width: 800px){
+	.section-1{
+		background-size: 100%;
+	}
+	nav img{
+	width: 20%;
+	padding: 10px;
+	font-size: 20px;
+   }
+	.section-2{
+		margin-top: -336px;
+	}
+	.tag .title1 h1{
+	font-size: 28px;
+   }
+    .tag .title2 hr{
+    	width: 65px;
+    }
+   .tag .title2 h1{
+	font-size: 28px;
+   }
+
+}
